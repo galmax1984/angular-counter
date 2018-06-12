@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 1.25rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 150%;
+    text-shadow: 0 2px 2px #b6701e;
+  }
+
+  section {
+    color: #fff;
+    text-align: center;
+  }
+
+  div {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+  }
+
+  article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 20px;
+  }
+
+  .alert {
+      display: inline-block;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+  }
+
+  h1 {
+    font-size: 25em;
+    margin: 0 0 0.75rem 0;
+  }
+
+  h2 {
+    font-size: 10em;
+    margin: 0 0 0.75rem 0;
+  }
+
+  p {
+      font-size: 2em;
+  }
+
+  /* Pattern styles */
+  .container {
+    display: table;
+    width: 100%;
+  }
+
+  .left-half {
+    background-color: #a0c3f8;
+    position: absolute;
+    left: 0px;
+    width: 50%;
+  }
+
+  .right-half {
+    background-color: #806f76;
+    position: absolute;
+    right: 0px;
+    width: 50%;
+  }
+
+  .set-counter {
+    position: absolute;
+    float: left;
+    width: 20%;
+    max-width: 500px;
+    max-height: 200px;
+    border: 1px solid #000000;
+    background-color: #6e98d6;
+}
+
+.right {
+  position: absolute;
+  right: 0px;
+  float: right;
+  background-color: #a37186;
+}

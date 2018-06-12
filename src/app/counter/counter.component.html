@@ -1,0 +1,21 @@
+<section class="container">
+  <div class="left-half" (click)="pointWon(0)">
+    <article>
+      <h1>{{this.leftPlayerPoints}}</h1>
+    </article>
+  </div>
+  <div class="right-half" (click)="pointWon(1)">
+    <article>
+      <h1>{{this.rightPlayerPoints}}</h1>
+    </article>
+    <!-- <div class="alert">
+      <i class="material-icons">control_point</i><p>SET POINT</p>
+    </div> -->
+  </div>
+  <div class="set-counter">
+    <h2>{{this.leftPlayerSets}}</h2>
+  </div>
+  <div class="set-counter right">
+    <h2>{{this.rightPlayerSets}}</h2>
+  </div>
+</section>
