@@ -16,11 +16,11 @@ export class CounterComponent implements OnInit {
   public gameSettings: GameSettings;
 
   public CurrentServe: By = By.Left;
-  protected leftPlayerPoints = 0;
-  protected rightPlayerPoints = 0;
+  public leftPlayerPoints = 0;
+  public rightPlayerPoints = 0;
 
-  protected leftPlayerSets = 0;
-  protected rightPlayerSets = 0;
+  public leftPlayerSets = 0;
+  public rightPlayerSets = 0;
 
   private setWonFlag = false;
 
