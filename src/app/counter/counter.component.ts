@@ -13,7 +13,7 @@ export enum By {Left = 0, Right = 1}
 })
 
 export class CounterComponent implements OnInit {
-  public gameSettings: GameSettings;
+  public gameSettings: GameSettings = new GameSettings();
 
   public CurrentServe: By = By.Left;
   public leftPlayerPoints = 0;
@@ -28,7 +28,9 @@ export class CounterComponent implements OnInit {
     gameSettingsService.getSettings('TableTennisDefault')
       .subscribe(x => {
         console.log(x);
-        this.gameSettings = x;
+        if (x) {
+          this.gameSettings = x;
+        }
       });
     console.log(this.gameSettings);
     }
